@@ -1,54 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     background-color: #99A3A4;
 }
 
-section{
+section {
     height: 100vh;
     width: 60%;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.degradado{
+.degradado {
     background: linear-gradient(to bottom, #00B8A9, #17A589, #28B463, #2ECC71);
     width: 7%;
 }
 
-.info{
+.info {
     background-color: #ffffff;
     width: 93%;
 }
 
-.cont_header{
+.cont_header {
     display: flex;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     width: 20%;
     height: auto;
     margin-left: 12%;
 }
 
-.text_header{
+.text_header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 5%;
 }
 
-.titulo{
+.titulo {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 56px;
@@ -60,12 +60,12 @@ section{
     display: inline-block;
 }
 
-.cont_informacion{
+.cont_informacion {
     display: flex;
     justify-content: center;
 }
 
-.nombres{
+.nombres {
     display: flex;
     flex-direction: column;
     color: #00B8A9;
@@ -74,82 +74,82 @@ section{
     letter-spacing: 0.1em;
 }
 
-.text_fecha{
+.text_fecha {
     display: flex;
     justify-content: end;
 }
 
-.informacion{
+.informacion {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
 }
 
-.cont_2{
+.cont_2 {
     display: flex;
     justify-content: space-between;
     margin: 10% 5%;
     letter-spacing: 0.1em;
 }
 
-.cont_info_per{
+.cont_info_per {
     margin-left: 15px;
 }
 
-.nombre{
+.nombre {
     color: #00B8A9;
     font-size: 30px;
     transform: scaleY(1.1);
     margin-bottom: 5px;
 }
 
-.text_info p{
+.text_info p {
     margin-bottom: 5px;
     font-size: 17px;
 }
 
-.cont_pago{
+.cont_pago {
     display: flex;
     flex-direction: column;
     margin-right: 50px;
     justify-content: end;
 }
 
-.cont_pago p{
+.cont_pago p {
     margin-bottom: 5px;
     font-size: 17px;
 }
 
-.sub_cont_pago{
+.sub_cont_pago {
     display: flex;
     justify-content: end;
 }
 
-.text_pago{
+.text_pago {
     color: #00B8A9;
     text-transform: uppercase;
     letter-spacing: 0.4em;
     margin-right: 5px;
 }
 
-.cont_cuenta{
+.cont_cuenta {
     display: flex;
 }
 
-.text_cuenta{
+.text_cuenta {
     text-transform: uppercase;
 }
 
-.cont_correo{
+.cont_correo {
     display: flex;
 }
 
-.text_correo{
+.text_correo {
     text-transform: uppercase;
 }
 
-.cont_tabla{
+.cont_tabla {
     display: flex;
     justify-content: center;
 }
@@ -157,11 +157,11 @@ section{
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
-    table-layout: fixed; 
+    table-layout: fixed;
     width: 90%;
-  }
-  
-  .tg td {
+}
+
+.tg td {
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -169,9 +169,9 @@ section{
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
-  }
-  
-  .tg th {
+}
+
+.tg th {
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -180,50 +180,155 @@ section{
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
-  }
-  
-  .tg .tg-d2d2 {
+}
+
+.tg .tg-d2d2 {
     border-color: #ffffff;
     font-size: 16px;
     text-align: center;
     vertical-align: top;
-  }
-  
-  .tg .tg-czno {
+}
+
+.tg .tg-czno {
     border-color: #ffffff;
     font-size: 16px;
     text-align: left;
     vertical-align: top;
-  }
-  
-  .tg .tg-2vg1 {
+}
+
+.tg .tg-2vg1 {
     background-color: #00B8A9;
     border-color: #00B8A9;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
     vertical-align: top;
-  }
-  
-  .tg .tg-xg79 {
+}
+
+.tg .tg-xg79 {
     background-color: #dcdcdc;
     border-color: #dcdcdc;
     font-size: 16px;
     text-align: left;
     vertical-align: top;
-  }
-  
-  .tg .tg-l1eb {
+}
+
+.tg .tg-l1eb {
     background-color: #dcdcdc;
     border-color: #dcdcdc;
     font-size: 16px;
     text-align: center;
     vertical-align: top;
-  }
-  
+}
+
 .cont_tabla table.tg tbody tr:last-child td {
     border-bottom: 4px solid #dcdcdc;
 }
-  
-  
-  
+
+.cards_tabla{
+    display: none;
+}
+
+.card_6{
+    display: none;
+}
+
+.sub_cont_2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 5%;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.subtotal{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8%;
+    margin-top: 12px;
+}
+
+.text_subtotal{
+    margin-left: 35%;
+}
+
+.imp{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9.2%;
+}
+
+.text_imp{
+    margin-left: 25%;
+}
+
+.total{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-right: 8%;
+}
+
+.text_total{
+    margin-left: 42%;
+}
+
+.cont_3{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 7%;
+    height: 100px;
+}
+
+.cont_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cont_contacto p{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.cont_gracias{
+    color: #00B8A9;
+    display: flex;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transform: scaleY(1.2);
+    padding-top: 8px;
+}
+
+.cont_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 90%;
+    border: 2px solid #00B8A9;
+}
+
+.cont_4 p{
+    margin: 15px 0;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+}
+
+@media(max-width: 1250px){
+    .cont_tabla, .sub_cont_2{
+        display: none;
+    }
+
+    .cards_tabla, .card_6{
+        display: block;
+    }
+}
