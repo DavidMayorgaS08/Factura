@@ -475,6 +475,10 @@ hr{
     section{
         width: 90%;
     }
+
+    .cont_pago{
+        margin-right: 20px;
+    }
 }
 
 @media(max-width: 600px){
