@@ -236,46 +236,27 @@ section {
 
 .sub_cont_2{
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    justify-content: end;
+    margin-top: 15px;
     margin-right: 5%;
     font-size: 18px;
     margin-bottom: 80px;
+    padding-right: 4%;
 }
 
-.subtotal{
-    width: 35%;
+.sub_imp{
     display: flex;
-    justify-content: space-between;
-    padding-right: 4%;
-    margin-top: 12px;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 5%;
 }
 
 .text_subtotal{
-    margin-left: 35%;
-}
-
-.imp{
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 5.2%;
-}
-
-.text_imp{
-    margin-left: 25%;
-}
-
-.total{
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding-right: 4%;
+    margin-bottom: 10px;
 }
 
 .text_total{
-    margin-left: 42%;
+    margin-top: 35px;
 }
 
 .cont_3{
@@ -483,6 +464,11 @@ hr{
 }
 
 @media(max-width: 600px){
+    .titulo{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
     .cards_tabla{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
