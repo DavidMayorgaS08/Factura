@@ -154,6 +154,21 @@ section {
     justify-content: center;
 }
 
+.col_art{
+    width: 55%;
+}
+
+.col_cant{
+    width: 15%;
+}
+
+.col_precio{
+    width: 15%;
+}
+
+.col_total{
+    width: 15%;
+}
 
 .tg {
     border-collapse: collapse;
