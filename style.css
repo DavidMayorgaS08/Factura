@@ -330,7 +330,7 @@ hr{
         display: none;
     }
 
-    .cards_tabla, .card_cantidad{
+    .cards_tabla{
         display: block;
     }
 
