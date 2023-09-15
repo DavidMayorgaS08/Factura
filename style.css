@@ -154,6 +154,7 @@ section {
     justify-content: center;
 }
 
+
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
@@ -243,10 +244,10 @@ section {
 }
 
 .subtotal{
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
-    padding-right: 8%;
+    padding-right: 4%;
     margin-top: 12px;
 }
 
@@ -255,10 +256,10 @@ section {
 }
 
 .imp{
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
-    padding-right: 9.2%;
+    padding-right: 5.2%;
 }
 
 .text_imp{
@@ -266,11 +267,11 @@ section {
 }
 
 .total{
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding-right: 8%;
+    padding-right: 4%;
 }
 
 .text_total{
