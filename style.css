@@ -499,3 +499,9 @@ hr{
         font-size: 40px;
     }
 }
+
+@media(max-width:450px){
+    .cont_pago p{
+        font-size: 15px;
+    }
+}
